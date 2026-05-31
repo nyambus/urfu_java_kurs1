@@ -1,0 +1,18 @@
+# Скомпилированные бинарники
+cpp/benchmark
+*.exe
+*.out
+
+# Java class-файлы
+java/*.class
+
+# IDE
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Системное
+.DS_Store
+Thumbs.db
