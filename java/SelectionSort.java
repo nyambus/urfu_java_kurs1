@@ -8,9 +8,11 @@ public class SelectionSort {
                     min_idx = j;
                 }
             }
-            int temp = arr[min_idx];
-            arr[min_idx] = arr[i];
-            arr[i] = temp;
+            if (min_idx != i) {
+                int temp = arr[min_idx];
+                arr[min_idx] = arr[i];
+                arr[i] = temp;
+            }
         }
     }
 }
